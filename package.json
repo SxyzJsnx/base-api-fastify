@@ -1,0 +1,29 @@
+{
+  "name": "base-api-fastify",
+  "version": "1.0.0",
+  "description": "a base rest api use Fastify module for backend and docs use swagger",
+  "main": "fastify.js",
+  "type": "module",
+  "scripts": {
+    "test": "node fastify.js",
+    "start": "node fastify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SxyzJsnx/base-api-fastify.git"
+  },
+  "keywords": [
+    "rest-api",
+    "base-api"
+  ],
+  "author": "SxyzJsnx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SxyzJsnx/base-api-fastify/issues"
+  },
+  "homepage": "https://github.com/SxyzJsnx/base-api-fastify#readme",
+  "dependencies": {
+    "@fastify/rate-limit": "^10.3.0",
+    "fastify": "^5.4.0"
+  }
+}
